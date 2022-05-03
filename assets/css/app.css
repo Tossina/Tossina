@@ -9,7 +9,8 @@
 	border: 1px solid var(--ppl-color);
 	min-height: 100vh;
 	border-bottom-width: var(--br-15) ;
-	margin-top: -60px!important;
+	margin-top: -80px!important;
+	overflow-x: hidden;
 }
 
 .tossinaHeader
@@ -48,6 +49,15 @@
 	justify-content: flex-end;
 }
 
+.twoCol
+{
+	display: flex;
+	align-items: center;
+	padding-left: 120px!important;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .cercle1
 {
 	height: 513px;
@@ -65,4 +75,20 @@
 	border: var(--br-15) solid var(--ppl-color);
 	background:url('../img/tossina.jpg') no-repeat top;
 	background-size: 160%;
+}
+
+h2.mywork
+{
+	font-family: "Trebuchet MS";
+	font-size: 100px!important;
+	font-weight: bold;
+}
+
+.bi{
+	vertical-align: middle!important;
+}
+
+.mywork span
+{
+	color: var(--ppl-color);
 }
