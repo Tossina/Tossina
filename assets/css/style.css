@@ -950,6 +950,11 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  #crl
+  {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
