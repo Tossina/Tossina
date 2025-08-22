@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+  <admin-texts>
+    <key name="kraken_user_mng_options" />
+  </admin-texts>
+  <custom-types>
+    <custom-type translate="1">kum_event</custom-type>
+    <custom-type translate="1">kum_file</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="copy">assigned_coach</custom-field>
+    <custom-field action="copy">created_by</custom-field>
+  </custom-fields>
+</wpml-config>
